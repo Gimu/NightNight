@@ -8,7 +8,7 @@
 
 import Foundation
 
-public extension UILabel {
+public extension UIImageView {
     @IBInspectable public var nightTintColor: UIColor? {
         get { return objc_getAssociatedObject(self, &NightKeys.tintColor) as? UIColor }
         set {
